@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <name>百度编辑器</name>
+    <author>Dream CMS</author>
+    <contact>Dream CMS@***.com</contact>
+    <desc>UEditor 是一套开源的在线HTML编辑器,主要用于让用户在网站上获得所见即所得编辑效果</desc>
+    <thumb></thumb>
+    <vhooks>
+        <vhook>
+            <name>百度编辑器</name>
+            <class>Vhook</class>
+            <method>ueditor</method>
+            <hookpos></hookpos>
+            <res>
+                <js>ueditor.all.min.js,lang/zh-cn/zh-cn.js</js>
+                <css></css>
+            </res>
+            
+        </vhook>
+    </vhooks>
+    
+</root>

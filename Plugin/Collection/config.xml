@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <name>采集插件</name>
+    <author>Dream CMS</author>
+    <contact>Dream CMS@***.com</contact>
+    <desc>基于phpQuery的采集插件，它采用了jQuery的思想，你可以像使用jQuery一样处理页面内容，获取你想要的页面信息。</desc>
+    <admin>
+        <operation>
+            <path>Admin/index</path>
+            <name>采集列表</name>
+            <!--menu_group如果是数组 必须是官方系统的分组编号 不能是其他插件分组的编号-->
+            <menu_group>5</menu_group>
+            <!--menu_module 不能放到已存在的分组 即不能是数字-->
+            <menu_module>采集模块</menu_module>
+            <res>
+                <js>fuelux.wizard.min.js,json2.js</js>
+                <css></css>
+            </res>
+            <ismenu>1</ismenu>
+        </operation>
+        
+        <operation>
+            <path>Admin/add</path>
+            <name>添加采集</name>
+            <menu_group>5</menu_group>
+            <menu_module>采集模块</menu_module>
+            <res>
+                <js>fuelux.wizard.min.js,json2.js</js>
+                <css></css>
+            </res>
+            <ismenu>1</ismenu>
+        </operation>
+        
+    </admin>
+</root>

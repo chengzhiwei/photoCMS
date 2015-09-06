@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <name>手机端接口</name>
+    <language>zh-cn|en-us</language>
+    <author>Dream CMS</author>
+    <contact>Dream CMS@***.com</contact>
+    <desc>提供手机端数据接口</desc>
+    <vhooks>        
+        <vhook>
+            <name>百度编辑器</name>
+            <class>Vhook</class>
+            <method>ueditor</method>
+            <desc>百度编辑器</desc>
+            <res>
+                <js>ueditor.all.min.js,lang/zh-cn/zh-cn.js</js>
+                <css></css>
+            </res>
+        </vhook>
+    </vhooks>
+    <site>
+        <language></language>
+        <operation>
+            <name>百度编辑器</name>
+            <class>Vhook</class>
+            <method>ueditor</method>
+            <desc>百度编辑器</desc>
+        </operation>
+    </site>
+    <admin>
+        <operation>
+            <path>Controller/action</path>
+            <name></name>
+            <menu_group></menu_group>
+            <menu_module></menu_module>
+            <res>
+                <js></js>
+                <css></css>
+            </res>
+            <ismenu>1</ismenu>
+           
+        </operation>
+        <operation>
+            <path>Controller/action</path>
+            <name></name>
+            <ismenu>1</ismenu>
+            <menu_group></menu_group>
+            <menu_module></menu_module>
+        </operation>
+        
+        
+    </admin>
+    
+
+</root>
