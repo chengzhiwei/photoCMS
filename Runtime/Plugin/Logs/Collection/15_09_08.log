@@ -1,0 +1,873 @@
+[ 2015-09-08T11:36:49+08:00 ] 127.0.0.1 /photocms/Plugin.php/Collection/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlChkLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Auth\Controller\AuthbaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') D:\xampp\htdocs\photocms\Admin\Auth\Controller\AuthbaseController.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Controller\AdminpluginController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') D:\xampp\htdocs\photocms\Plugin\Common\Controller\AdminpluginController.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' D:\xampp\htdocs\photocms\Admin\Common\Controller\AdminbaseController.class.php 第 14 行.
+
+[ 2015-09-08T11:39:05+08:00 ] 127.0.0.1 /photocms/Plugin.php/Collection/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlChkLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Auth\Controller\AuthbaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') D:\xampp\htdocs\photocms\Admin\Auth\Controller\AuthbaseController.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Controller\AdminpluginController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') D:\xampp\htdocs\photocms\Plugin\Common\Controller\AdminpluginController.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' D:\xampp\htdocs\photocms\Admin\Common\Controller\AdminbaseController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `ur7_admin_auth_group` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ur7_admin_auth_group` ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ur7_admin_auth_action` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ur7_admin_auth_action` WHERE `group` = 'Collection' AND `controller` = 'Admin' AND `action` = 'index' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ur7_plg_collection` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `ur7_plg_collection`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ur7_category` [ RunTime:0.0040s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\photocms\Plugin\Collection\Controller\AdminController.class.php 第 20 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\photocms\Template\Plugin\Collection\Admin\index.php 第 24 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-09-08T11:39:07+08:00 ] 127.0.0.1 /photocms/Plugin.php/Collection/Admin/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlChkLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Auth\Controller\AuthbaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') D:\xampp\htdocs\photocms\Admin\Auth\Controller\AuthbaseController.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Controller\AdminpluginController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') D:\xampp\htdocs\photocms\Plugin\Common\Controller\AdminpluginController.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' D:\xampp\htdocs\photocms\Admin\Common\Controller\AdminbaseController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `ur7_admin_auth_group` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ur7_admin_auth_group` ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ur7_admin_auth_action` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ur7_admin_auth_action` WHERE `group` = 'Collection' AND `controller` = 'Admin' AND `action` = 'add' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ur7_category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ur7_category`  [ RunTime:0.0000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-08T11:39:26+08:00 ] 127.0.0.1 /photocms/Plugin.php/Collection/Admin/getfields.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\FlChkLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Auth\Controller\AuthbaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') D:\xampp\htdocs\photocms\Admin\Auth\Controller\AuthbaseController.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Controller\AdminpluginController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') D:\xampp\htdocs\photocms\Plugin\Common\Controller\AdminpluginController.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' D:\xampp\htdocs\photocms\Admin\Common\Controller\AdminbaseController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `ur7_admin_auth_group` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ur7_admin_auth_group` ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ur7_admin_auth_action` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ur7_admin_auth_action` WHERE `group` = 'Collection' AND `controller` = 'Admin' AND `action` = 'getfields' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ur7_model_field` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ur7_model_field` WHERE `mid` = -1 ORDER BY sort  [ RunTime:0.0170s ]
+
+[ 2015-09-08T11:39:32+08:00 ] 127.0.0.1 /photocms/Plugin.php/Collection/Admin/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\FlChkLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Auth\Controller\AuthbaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') D:\xampp\htdocs\photocms\Admin\Auth\Controller\AuthbaseController.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Controller\AdminpluginController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') D:\xampp\htdocs\photocms\Plugin\Common\Controller\AdminpluginController.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' D:\xampp\htdocs\photocms\Admin\Common\Controller\AdminbaseController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `ur7_admin_auth_group` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ur7_admin_auth_group` ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ur7_admin_auth_action` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ur7_model_field` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ur7_model_field` WHERE `mid` = -1 ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\photocms\Plugin\Collection\Controller\AdminController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `ur7_plg_collection` [ RunTime:0.0050s ]
+SQL: INSERT INTO `ur7_plg_collection` (`title`,`cate`,`listrule`,`pagerule`) VALUES ('w','1,-1','{\"listurl\":\"w\",\"listobj\":\"w\",\"listattr\":\"w\"}','[]') [ RunTime:0.0480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-08T11:39:33+08:00 ] 127.0.0.1 /photocms/Plugin.php/Collection/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\FlChkLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Auth\Controller\AuthbaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') D:\xampp\htdocs\photocms\Admin\Auth\Controller\AuthbaseController.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Controller\AdminpluginController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') D:\xampp\htdocs\photocms\Plugin\Common\Controller\AdminpluginController.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' D:\xampp\htdocs\photocms\Admin\Common\Controller\AdminbaseController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `ur7_admin_auth_group` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ur7_admin_auth_group` ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ur7_admin_auth_action` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `ur7_plg_collection` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ur7_plg_collection`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ur7_category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ur7_category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-08T11:44:05+08:00 ] 127.0.0.1 /photocms/Plugin.php/Collection/Admin/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\FlChkLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Auth\Controller\AuthbaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') D:\xampp\htdocs\photocms\Admin\Auth\Controller\AuthbaseController.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Controller\AdminpluginController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') D:\xampp\htdocs\photocms\Plugin\Common\Controller\AdminpluginController.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' D:\xampp\htdocs\photocms\Admin\Common\Controller\AdminbaseController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `ur7_admin_auth_group` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ur7_admin_auth_group` ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ur7_admin_auth_action` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ur7_category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ur7_category`  [ RunTime:0.0010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-08T11:52:24+08:00 ] 127.0.0.1 /photocms/Plugin.php/Collection/Admin/testlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\FlChkLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Auth\Controller\AuthbaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') D:\xampp\htdocs\photocms\Admin\Auth\Controller\AuthbaseController.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Controller\AdminpluginController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') D:\xampp\htdocs\photocms\Plugin\Common\Controller\AdminpluginController.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' D:\xampp\htdocs\photocms\Admin\Common\Controller\AdminbaseController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `ur7_admin_auth_group` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ur7_admin_auth_group` ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ur7_admin_auth_action` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ur7_admin_auth_action` WHERE `group` = 'Collection' AND `controller` = 'Admin' AND `action` = 'testlist' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 25 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 25 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 388 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 388 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 406 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 406 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 406 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 448 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 472 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 472 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 515 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 518 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 518 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 536 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 536 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 539 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 539 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 566 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 566 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 566 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 574 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 574 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 578 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 578 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 581 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 581 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 584 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 584 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 587 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 587 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 595 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 599 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 602 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 602 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 608 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 608 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 648 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 648 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 655 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 655 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 655 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 655 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 659 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 659 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 659 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 659 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 956 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 956 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 956 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 956 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1060 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1060 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1060 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1060 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1085 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1085 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1107 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1107 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1107 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1107 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1232 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1232 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1232 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1232 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1277 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1277 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1277 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1277 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : a in Entity, line: 1420 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : span in Entity, line: 1420 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : iframe in Entity, line: 1420 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : script in Entity, line: 1430 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 1431 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1511 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1529 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1529 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1529 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1529 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-08T11:52:56+08:00 ] 127.0.0.1 /photocms/Plugin.php/Collection/Admin/testlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\FlChkLangBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+NOTIC: [2048] Declaration of Auth\Controller\AuthbaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') D:\xampp\htdocs\photocms\Admin\Auth\Controller\AuthbaseController.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Controller\AdminpluginController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') D:\xampp\htdocs\photocms\Plugin\Common\Controller\AdminpluginController.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' D:\xampp\htdocs\photocms\Admin\Common\Controller\AdminbaseController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `ur7_admin_auth_group` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ur7_admin_auth_group` ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ur7_admin_auth_action` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ur7_admin_auth_action` WHERE `group` = 'Collection' AND `controller` = 'Admin' AND `action` = 'testlist' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 25 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 25 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 388 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 388 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 406 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 406 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 406 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 448 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 472 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 472 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 515 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 518 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 518 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 536 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 536 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 539 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 539 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 566 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 566 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 566 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 574 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 574 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 578 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 578 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 581 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 581 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 584 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 584 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 587 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 587 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 595 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 599 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 602 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 602 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 608 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 608 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 648 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 648 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 655 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 655 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 655 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 655 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 659 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 659 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 659 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 659 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 956 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 956 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 956 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 956 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1060 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1060 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1060 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1060 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1085 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1085 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1107 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1107 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1107 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1107 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1232 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1232 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1232 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1232 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1277 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1277 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1277 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1277 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : a in Entity, line: 1420 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : span in Entity, line: 1420 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : iframe in Entity, line: 1420 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : script in Entity, line: 1430 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 1431 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1511 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1529 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1529 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1529 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1529 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-08T11:53:15+08:00 ] 127.0.0.1 /photocms/Plugin.php/Collection/Admin/testlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\FlChkLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Auth\Controller\AuthbaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') D:\xampp\htdocs\photocms\Admin\Auth\Controller\AuthbaseController.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Controller\AdminpluginController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') D:\xampp\htdocs\photocms\Plugin\Common\Controller\AdminpluginController.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' D:\xampp\htdocs\photocms\Admin\Common\Controller\AdminbaseController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `ur7_admin_auth_group` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ur7_admin_auth_group` ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ur7_admin_auth_action` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ur7_admin_auth_action` WHERE `group` = 'Collection' AND `controller` = 'Admin' AND `action` = 'testlist' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 25 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 25 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 388 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 388 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 406 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 406 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 406 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 448 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 472 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 472 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 515 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 518 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 518 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 536 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 536 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 539 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 539 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 566 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 566 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 566 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 574 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 574 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 578 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 578 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 581 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 581 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 584 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 584 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 587 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 587 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 595 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 599 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 602 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 602 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 608 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 608 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 648 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 648 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 655 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 655 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 655 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 655 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 659 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 659 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 659 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 659 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 956 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 956 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 956 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 956 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1060 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1060 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1060 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1060 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1085 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1085 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1107 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1107 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1107 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1107 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1232 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1232 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1232 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1232 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1277 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1277 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1277 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1277 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : a in Entity, line: 1420 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : span in Entity, line: 1420 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : iframe in Entity, line: 1420 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : script in Entity, line: 1430 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 1431 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1511 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1529 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1529 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1529 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1529 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-08T11:53:34+08:00 ] 127.0.0.1 /photocms/Plugin.php/Collection/Admin/testlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\FlChkLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Auth\Controller\AuthbaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') D:\xampp\htdocs\photocms\Admin\Auth\Controller\AuthbaseController.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Controller\AdminpluginController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') D:\xampp\htdocs\photocms\Plugin\Common\Controller\AdminpluginController.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' D:\xampp\htdocs\photocms\Admin\Common\Controller\AdminbaseController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `ur7_admin_auth_group` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ur7_admin_auth_group` ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ur7_admin_auth_action` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ur7_admin_auth_action` WHERE `group` = 'Collection' AND `controller` = 'Admin' AND `action` = 'testlist' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 25 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 25 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 388 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 388 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 406 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 406 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 406 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 448 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 472 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 472 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 515 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 518 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 518 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 536 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 536 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 539 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 539 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 566 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 566 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 566 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 574 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 574 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 578 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 578 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 581 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 581 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 584 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 584 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 587 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 587 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 595 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 599 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 602 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 602 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 608 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 608 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 648 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 648 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 655 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 655 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 655 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 655 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 659 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 659 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 659 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 659 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 956 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 956 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 956 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 956 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1060 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1060 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1060 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1060 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1085 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1085 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1107 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1107 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1107 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1107 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1232 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1232 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1232 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1232 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1277 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1277 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1277 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1277 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : a in Entity, line: 1420 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : span in Entity, line: 1420 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : iframe in Entity, line: 1420 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : script in Entity, line: 1430 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 1431 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1511 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1529 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1529 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1529 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1529 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-08T11:53:54+08:00 ] 127.0.0.1 /photocms/Plugin.php/Collection/Admin/testlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlChkLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Auth\Controller\AuthbaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') D:\xampp\htdocs\photocms\Admin\Auth\Controller\AuthbaseController.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Controller\AdminpluginController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') D:\xampp\htdocs\photocms\Plugin\Common\Controller\AdminpluginController.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' D:\xampp\htdocs\photocms\Admin\Common\Controller\AdminbaseController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `ur7_admin_auth_group` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ur7_admin_auth_group` ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ur7_admin_auth_action` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ur7_admin_auth_action` WHERE `group` = 'Collection' AND `controller` = 'Admin' AND `action` = 'testlist' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 25 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 25 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 388 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 388 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 406 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 406 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 406 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 448 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 472 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 472 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 515 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 518 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 518 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 536 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 536 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 539 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 539 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 566 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 566 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 566 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 574 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 574 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 578 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 578 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 581 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 581 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 584 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 584 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 587 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 587 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 595 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 599 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 602 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 602 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 608 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 608 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 648 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 648 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 655 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 655 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 655 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 655 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 659 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 659 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 659 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 659 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 956 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 956 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 956 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 956 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1060 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1060 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1060 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1060 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1085 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1085 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1107 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1107 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1107 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1107 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1232 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1232 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1232 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1232 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1277 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1277 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1277 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1277 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : a in Entity, line: 1420 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : span in Entity, line: 1420 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : iframe in Entity, line: 1420 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : script in Entity, line: 1430 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 1431 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1511 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1529 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1529 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1529 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1529 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-08T13:27:08+08:00 ] 127.0.0.1 /photocms/Plugin.php/Collection/Admin/testlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.025003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012001s ]
+INFO: Run Behavior\FlChkLangBehavior [ RunTime:0.023002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.035003s ]
+NOTIC: [2048] Declaration of Auth\Controller\AuthbaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') D:\xampp\htdocs\photocms\Admin\Auth\Controller\AuthbaseController.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Controller\AdminpluginController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') D:\xampp\htdocs\photocms\Plugin\Common\Controller\AdminpluginController.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' D:\xampp\htdocs\photocms\Admin\Common\Controller\AdminbaseController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `ur7_admin_auth_group` [ RunTime:0.1090s ]
+SQL: SELECT * FROM `ur7_admin_auth_group` ORDER BY sort  [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `ur7_admin_auth_action` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ur7_admin_auth_action` WHERE `group` = 'Collection' AND `controller` = 'Admin' AND `action` = 'testlist' LIMIT 1   [ RunTime:0.0130s ]
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 25 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 25 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 388 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 388 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 406 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 406 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 406 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 448 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 472 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 472 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 515 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 518 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 518 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 536 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 536 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 539 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 539 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 566 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 566 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 566 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 574 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 574 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 578 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 578 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 581 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 581 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 584 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 584 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 587 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 587 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 595 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 599 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 602 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 602 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 608 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 608 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 648 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 648 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 655 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 655 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 655 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 655 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 659 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 659 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 659 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 659 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 956 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 956 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 956 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 956 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 970 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 970 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 970 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 970 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 971 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 971 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 971 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 971 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1060 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1060 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1060 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1060 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1085 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1085 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1107 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1107 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1107 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1107 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1232 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1232 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1232 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1232 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1277 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1277 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1277 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1277 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : a in Entity, line: 1420 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : span in Entity, line: 1420 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : iframe in Entity, line: 1420 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : script in Entity, line: 1430 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 1431 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1511 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1529 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1529 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1529 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1529 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.021002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021002s ]
+
+[ 2015-09-08T13:30:26+08:00 ] 127.0.0.1 /photocms/Plugin.php/Collection/Admin/testlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\FlChkLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Auth\Controller\AuthbaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') D:\xampp\htdocs\photocms\Admin\Auth\Controller\AuthbaseController.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Controller\AdminpluginController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') D:\xampp\htdocs\photocms\Plugin\Common\Controller\AdminpluginController.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' D:\xampp\htdocs\photocms\Admin\Common\Controller\AdminbaseController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `ur7_admin_auth_group` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ur7_admin_auth_group` ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ur7_admin_auth_action` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ur7_admin_auth_action` WHERE `group` = 'Collection' AND `controller` = 'Admin' AND `action` = 'testlist' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 25 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 25 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 388 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 388 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 406 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 406 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 406 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 448 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 472 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 472 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 515 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 518 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 518 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 536 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 536 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 539 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 539 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 566 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 566 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 566 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 574 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 574 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 578 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 578 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 581 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 581 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 584 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 584 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 587 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 587 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 595 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 599 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 602 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 602 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 608 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 608 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 648 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 648 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 655 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 655 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 655 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 655 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 659 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 659 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 659 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 659 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 956 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 956 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 956 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 956 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 970 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 970 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 970 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 970 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 971 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 971 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 971 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 971 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1060 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1060 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1060 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1060 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1085 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1085 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1107 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1107 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1107 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1107 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1232 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1232 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1232 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1232 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1277 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1277 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1277 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1277 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : a in Entity, line: 1420 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : span in Entity, line: 1420 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : iframe in Entity, line: 1420 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : script in Entity, line: 1430 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 1431 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1511 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1529 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1529 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1529 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1529 D:\xampp\htdocs\photocms\Core\Library\Vendor\phpQuery\phpQuery.class.php 第 327 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-08T14:59:36+08:00 ] 127.0.0.1 /photocms/Plugin.php/Collection/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\FlChkLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Auth\Controller\AuthbaseController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') D:\xampp\htdocs\photocms\Admin\Auth\Controller\AuthbaseController.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Controller\AdminpluginController::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') D:\xampp\htdocs\photocms\Plugin\Common\Controller\AdminpluginController.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant TMPL_PATH - assumed 'TMPL_PATH' D:\xampp\htdocs\photocms\Admin\Common\Controller\AdminbaseController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `ur7_admin_auth_group` [ RunTime:0.0380s ]
+SQL: SELECT * FROM `ur7_admin_auth_group` ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ur7_admin_auth_action` [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `ur7_plg_collection` [ RunTime:0.0370s ]
+SQL: SELECT * FROM `ur7_plg_collection`  [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `ur7_category` [ RunTime:0.0570s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\photocms\Plugin\Collection\Controller\AdminController.class.php 第 20 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\photocms\Template\Plugin\Collection\Admin\index.php 第 24 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

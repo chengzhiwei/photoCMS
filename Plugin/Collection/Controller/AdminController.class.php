@@ -101,7 +101,7 @@ class AdminController extends \Common\Controller\AdminpluginController
     public function testlist()
     {
         $listurl = I('post.listurl');
-        $listurl = str_replace('{$page}', 2, $listurl);
+        $listurl = str_replace('{$page}', 02, $listurl);
 
         $listobj = $_POST['listobj'];
         $listattr = I('post.listattr');

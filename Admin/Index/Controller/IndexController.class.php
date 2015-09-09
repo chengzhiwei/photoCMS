@@ -30,6 +30,7 @@ class IndexController extends \Auth\Controller\AuthbaseController
             $ac_arr = array();
             foreach ($actionlist as $key => $ac)
             {
+             
                 $ac['url'] = URL($ac['group'] . '/' . $ac['controller'] . '/' . $ac['action'], '', $ac['app']);
                 $ac_arr[$ac['cid']][] = $ac;
             }

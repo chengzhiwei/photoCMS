@@ -30,7 +30,7 @@ function DD($model, $arg = array())
 
 function URL($url = '', $vars = '', $app = '', $suffix = true, $domain = false)
 {
-    if (is_int($app))
+    if (is_numeric($app))
     {
         switch ($app)
         {
@@ -262,4 +262,29 @@ function Vhook($path, $vars = array())
         $elt_obj[$cls] = $class;
     }
     return call_user_func_array(array($elt_obj[$cls], $method), array($vars));
+}
+
+function CSS($csspath, $app = 1)
+{
+    static $cssarr = array();
+    $filePath = '';
+    $file = '';
+    switch ($app)
+    {
+        case \Model\Enum\AppEnum::SITE:
+            $filePath = C('TMPL_PATH') . '/' . C('SITE_APP_NAME') . '/' .
+                    C('SITE_THEME') . '/Layout/Css/';
+            break;
+    }
+    $cssfiles = explode(',', $csspath);
+    foreach ($cssfiles as $f)
+    {
+        $file = __ROOT__ . '/' . $filePath . $f;
+        $filemd5 = md5_file( $filePath . $f);
+        if (!in_array($filemd5, $cssarr))
+        {
+            $cssarr[] = $filemd5;
+            echo '<link rel="stylesheet" href="' . $file . '" />';
+        }
+    }
 }

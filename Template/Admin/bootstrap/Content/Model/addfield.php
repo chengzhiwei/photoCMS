@@ -26,48 +26,41 @@
         <div class="col-xs-12">
             <form role="form" class="form-horizontal" method="post">
                 <div class="form-group">
-                    <label for="form-field-1" class="col-sm-3 control-label no-padding-right"> <?php echo L('FIELD_NAME'); ?> </label>
+                    <label for="form-field-1" class="col-sm-3 control-label no-padding-right"> 字段名 </label>
 
                     <div class="col-sm-9">
-                        <input type="text" name="titlename" id="titlename" class="col-xs-10 col-sm-5" placeholder="<?php echo L('FIELD_NAME'); ?> ">
+                        <input type="text" name="titlename" id="titlename" class="col-xs-10 col-sm-5" placeholder="字段名 ">
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="form-field-1" class="col-sm-3 control-label no-padding-right"> <?php echo L('FIELD'); ?> </label>
+                    <label for="form-field-1" class="col-sm-3 control-label no-padding-right"> 字段 </label>
 
                     <div class="col-sm-9">
-                        <input type="text" id="fieldname"  name="fieldname" class="col-xs-10 col-sm-5" placeholder="<?php echo L('FIELD'); ?> ">
-                    </div>
-                </div>
-                <div class="space-4"></div>
-
-                <div class="form-group">
-                    <label for="form-field-2" class="col-sm-3 control-label no-padding-right"> <?php echo L('LANGCONF'); ?></label>
-
-                    <div class="col-sm-9">
-                        <input type="text" id="title" name="title" value="" class="col-xs-10 col-sm-5" placeholder="<?php echo L('LANGCONF'); ?>">
-
+                        <input type="text" id="fieldname"  name="fieldname" class="col-xs-10 col-sm-5" placeholder="字段 ">
                     </div>
                 </div>
                 <div class="space-4"></div>
+
+                <div class="space-4"></div>
                 <div class="form-group">
-                    <label for="form-field-2" class="col-sm-3 control-label no-padding-right"><?php echo L('FIELD_TYPE'); ?></label>
+                    <label for="form-field-2" class="col-sm-3 control-label no-padding-right">字段类型</label>
 
                     <div class="col-sm-9">
                         <select id="field_type" name="type">
-                            <option value="text"><?php echo L('TEXT_BOX'); ?></option>
-                            <option value="textarea"><?php echo L('TEXTAREA_BOX'); ?></option>
-                            <option value="editor"><?php echo L('EDITOR'); ?></option>
-                            <option value="thumb"><?php echo L('THUMB'); ?></option>
-                            <option value="singleupload"><?php echo L('SINGLE_UPLOAD'); ?></option>
-                            <option value="moreupload"><?php echo L('MORE_UPLOAD'); ?></option>
-                            <option value="radio"><?php echo L('RADIO'); ?></option>
-                            <option value="checkbox"><?php echo L('CHECKBOX'); ?></option>
+                            <option value="text">单行文本</option>
+                            <option value="textarea">多行文本</option>
+                            <option value="editor">编辑器</option>
+                            <option value="thumb">缩略图</option>
+                            <option value="multithumb">组图</option>
+                            <option value="singleupload">单文件上传</option>
+                            <option value="moreupload">多文件上传</option>
+                            <option value="radio">单选框</option>
+                            <option value="checkbox">多选框</option>
                         </select>
                     </div>
                 </div>
                 <div id="field_val" class="form-group" style="display: none">
-                    <label for="form-field-2" class="col-sm-3 control-label no-padding-right"><?php echo L('FIELD_VAL') ?></label>
+                    <label for="form-field-2" class="col-sm-3 control-label no-padding-right">字段值</label>
 
                     <div class="col-sm-9">
                         <textarea name="fieldvalue" class="col-xs-10 col-sm-5"></textarea>
@@ -75,7 +68,7 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="form-field-2" class="col-sm-3 control-label no-padding-right"><?php echo L('ALLOW_NULL') ?></label>
+                    <label for="form-field-2" class="col-sm-3 control-label no-padding-right">允许为空</label>
 
                     <div class="col-sm-9">
                         <input type="checkbox" value="1" name="isnull" class="chkall ace  ace-checkbox-2" autocomplete="off">
@@ -84,7 +77,7 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="form-field-2" class="col-sm-3 control-label no-padding-right"><?php echo L('TACK_ATTR'); ?></label>
+                    <label for="form-field-2" class="col-sm-3 control-label no-padding-right">附加属性</label>
 
                     <div class="col-sm-9">
                         <input type="text" name='tackattr' class="col-xs-10 col-sm-5" placeholder="">
@@ -92,22 +85,22 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="form-field-2" class="col-sm-3 control-label no-padding-right"><?php echo L('COMMON_REG'); ?></label>
+                    <label for="form-field-2" class="col-sm-3 control-label no-padding-right">常用正则</label>
 
                     <div class="col-sm-9">
                         <input type="text" class="col-xs-10 col-sm-4" id="reg" name="reg" placeholder=""> 
                         <select class="col-xs-10 col-sm-1  sel_reg">
-                            <option value=""><?php echo L('PLEASE_SELECT'); ?></option>
-                            <option value="^[1-9]\d*$"><?php echo L('NUMBER'); ?></option>
-                            <option value="\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"><?php echo L('EMAIL'); ?></option>
-                            <option value="1[0-9]{10}"><?php echo L('MOBILE'); ?></option>
+                            <option value="">请选择</option>
+                            <option value="^[1-9]\d*$">数字</option>
+                            <option value="\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*">电子邮件</option>
+                            <option value="1[0-9]{10}">手机</option>
                         </select>
 
                     </div>
                 </div>
 
                 <div class="form-group">
-                    <label for="form-field-2" class="col-sm-3 control-label no-padding-right"><?php echo L('CUSTOM_CONTROL'); ?></label>
+                    <label for="form-field-2" class="col-sm-3 control-label no-padding-right">自定义控件</label>
 
                     <div class="col-sm-9">
                         <a data-toggle="modal" data-target=".bs-example-modal-lg" href="#" class=" btn btn-xs btn-info" style=" margin-top: 1px">
@@ -123,13 +116,13 @@
                     <div class="col-md-offset-3 col-md-9">
                         <button type="submit" class="btn btn-info">
                             <i class="icon-ok bigger-110"></i>
-                            Submit
+                            提交
                         </button>
 
                         &nbsp; &nbsp; &nbsp;
                         <button type="reset" class="btn">
                             <i class="icon-undo bigger-110"></i>
-                            Reset
+                            重置
                         </button>
                     </div>
                 </div>

@@ -3,7 +3,7 @@
 if (version_compare(PHP_VERSION, '5.3.0', '<'))
     die('require PHP > 5.3.0 !');
 $global = include 'Config/global.php';
-
+include 'Config/functions.php';
 define('APP_DEBUG', True);
 
 //定义应用目录

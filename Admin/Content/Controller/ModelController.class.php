@@ -44,15 +44,12 @@ class ModelController extends \Auth\Controller\AuthbaseController
             $addfield = $ModelField->addDefaultField($mid);
             if ($addmodel && $addtable && $addfield)
             {
-                //添加语言包
-                $setlang = new \Org\Helper\SetLang('Content/Model', true);
-                $setlang->setOneLang('MDL_' . strtoupper(I('post.table')), I('post.title'));
                 $mod->commit();
-                $this->success(L('OP_SUCCESS'));
+                $this->success('添加成功');
             } else
             {
                 $mod->rollback();
-                $this->error(L('OP_ERROR'));
+                $this->error('发生错误请重试');
             }
         } else
         {
@@ -79,7 +76,7 @@ class ModelController extends \Auth\Controller\AuthbaseController
             $fieldinfo = $fieldMod->findByMidFiled(I('post.mid'), I('post.fieldname'));
             if ($fieldinfo)
             {
-                $this->error(L('THE_SAME_FILED'));
+                $this->error('已存在相同字段');
             }
             //添加模型字段
             $fieldMod->startTrans();
@@ -89,11 +86,11 @@ class ModelController extends \Auth\Controller\AuthbaseController
             if ($addmodelfile !== false && $addtablefile !== false)
             {
                 $fieldMod->commit();
-                $this->success(L('OP_SUCCESS'));
+                $this->success('添加成功');
             } else
             {
                 $fieldMod->rollback();
-                $this->error(L('OP_ERROR'));
+                $this->error('发生错误，请重试');
             }
         } else
         {

@@ -3,8 +3,9 @@
 if (version_compare(PHP_VERSION, '5.3.0', '<'))
     die('require PHP > 5.3.0 !');
 //全局配置文件
-$global = include 'Config/global.php';
 
+$global = include 'Config/global.php';
+include 'Config/functions.php';
 // 开启调试模式
 define('APP_DEBUG', TRUE);
 
