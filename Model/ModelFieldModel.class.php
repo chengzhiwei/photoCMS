@@ -11,8 +11,8 @@ namespace Model;
 class ModelFieldModel extends \Think\Model\AdvModel
 {
 
-    public $text_arr = array('editor', 'moreupload',);
-    public $varchar_arr = array('text', 'textarea','multithumb');
+    public $text_arr = array('editor', 'moreupload','multithumb');
+    public $varchar_arr = array('text', 'textarea');
     public $select_arr = array('radio', 'checkbox',);
 
     public function addField($data = array())

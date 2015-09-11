@@ -138,9 +138,7 @@ class ModelController extends \Auth\Controller\AuthbaseController
         $id = I('get.id');
         $fieldMod = DD('ModelField');
         $fieldinfo = $fieldMod->find($id);
-        //删除语言
-        $setLang = new \Org\Helper\SetLang('Content/modelfield', true);
-        $b = $setLang->delOneLang($fieldinfo['langconf']);
+      
         $Model = DD('Model');
         $modelinfo = $Model->findByID($fieldinfo['mid']);
         //删除模型字段

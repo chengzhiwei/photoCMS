@@ -29,7 +29,7 @@
                     <label for="form-field-1" class="col-sm-3 control-label no-padding-right"> 字段名 </label>
 
                     <div class="col-sm-9">
-                        <input type="text" name="titlename" id="titlename" class="col-xs-10 col-sm-5" placeholder="字段名 ">
+                        <input type="text" name="title" id="title" class="col-xs-10 col-sm-5" placeholder="字段名 ">
                     </div>
                 </div>
                 <div class="form-group">
@@ -257,9 +257,5 @@
         $('#plugintxt').html(obj.attr('plugintxt'));
 
     }
-    $(function () {
-        $('#fieldname').blur(function () {
-            $('#title').val('<?php echo strtoupper($modelinfo['table']) . '_'; ?>' + $(this).val().toUpperCase());//toUpperCase
-        })
-    })
+
 </script>
